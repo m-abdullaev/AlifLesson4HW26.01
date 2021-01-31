@@ -20,6 +20,40 @@ namespace AlifLesson426._01
             //Book book1 = new Book("Rules", "Jack Canfield", "Self Development");
             //book1.Show();
 
+            //task4
+            //Console.ForegroundColor = ConsoleColor.Blue;
+            //Console.WriteLine($"Welcome to the system!");
+            //Console.WriteLine($"Please enter your credentials: ");
+            //Console.Write("Please enter your login: ");
+            //string login = Console.ReadLine();
+            //Console.Write("Please enter your password: ");
+            //string password = Console.ReadLine();
+            //LoginChecker loginChecker = new LoginChecker(login, password);
+            //loginChecker.dataChecker();
+            //Console.WriteLine($"What would you like to do next?");
+            //Account account1;
+            //double account = Convert.ToDouble(Console.ReadLine());
+            //double deposit = Convert.ToDouble(Console.ReadLine());
+            //double savings = Convert.ToDouble(Console.ReadLine());
+            //double creditCard = Convert.ToDouble(Console.ReadLine());
+            //account1 = new Account(account, deposit, savings, creditCard);
+
+            //Console.WriteLine("Your checking account balance is: ");
+            //Console.WriteLine(@"1. Check Account balance
+            //                    2. Make a deposit");
+
+            /*Transfer money from your account to another account
+            Your Checking Acc balance is 1300
+            What would you like to do?
+            Deposit money 500
+            
+            
+            your balance is Checking Acc 2500 
+                            Savings Acc   500
+                            Credit Card  200
+
+             */
+
             //task5
             //        Converter converter = new Converter(11.30, 13.30, 0.15);
             //        Console.WriteLine("Enter amount: ");
@@ -111,230 +145,296 @@ namespace AlifLesson426._01
             //employee1.positionInfo();
             //employee1.getInfo();
         }
-            //task2
-            //public class Rectangle
-            //{
-            //    public double side1, side2;
-            //    public Rectangle(double side1, double side2)
-            //    {
-            //        this.side1 = side1;
-            //        this.side2 = side2;
-            //    }
-            //    public double AreaCalculator()
-            //    {
-            //        return side1 * side2;
-            //    }
-            //    public double PerimeterCalculator()
-            //    {
-            //        return (side1 + side2) * 2;
-            //    }
-            //    double Area
-            //    {
-            //        get
-            //        {
-            //            return AreaCalculator();
-            //        }
-            //    }
-            //    double Perimeter
-            //    {
-            //        get
-            //        {
-            //            return PerimeterCalculator();
-            //        }
-            //    }
+        //task2
+        //public class Rectangle
+        //{
+        //    public double side1, side2;
+        //    public Rectangle(double side1, double side2)
+        //    {
+        //        this.side1 = side1;
+        //        this.side2 = side2;
+        //    }
+        //    public double AreaCalculator()
+        //    {
+        //        return side1 * side2;
+        //    }
+        //    public double PerimeterCalculator()
+        //    {
+        //        return (side1 + side2) * 2;
+        //    }
+        //    double Area
+        //    {
+        //        get
+        //        {
+        //            return AreaCalculator();
+        //        }
+        //    }
+        //    double Perimeter
+        //    {
+        //        get
+        //        {
+        //            return PerimeterCalculator();
+        //        }
+        //    }
 
 
-            //task3
-            //class Book
-            //{
-            //    Title title;
-            //    Author author;
-            //    Content content;
-            //    public Book(string title, string author, string content)
-            //    {
-            //        this.title = new Title(title);
-            //        this.author = new Author(author);
-            //        this.content = new Content(content);
-            //    }
-            //    public void Show()
-            //    {
-            //        Console.ForegroundColor = ConsoleColor.Yellow;
-            //        title.Show();
-            //        Console.ForegroundColor = ConsoleColor.Red;
-            //        author.Show();
-            //        Console.ForegroundColor = ConsoleColor.Green;
-            //        content.Show();
-            //    }
-            //}
+        //task3
+        //class Book
+        //{
+        //    Title title;
+        //    Author author;
+        //    Content content;
+        //    public Book(string title, string author, string content)
+        //    {
+        //        this.title = new Title(title);
+        //        this.author = new Author(author);
+        //        this.content = new Content(content);
+        //    }
+        //    public void Show()
+        //    {
+        //        Console.ForegroundColor = ConsoleColor.Yellow;
+        //        title.Show();
+        //        Console.ForegroundColor = ConsoleColor.Red;
+        //        author.Show();
+        //        Console.ForegroundColor = ConsoleColor.Green;
+        //        content.Show();
+        //    }
+        //}
 
-            //class Title
-            //{
-            //    string title;
-            //    public Title(string title)
-            //    {
-            //        this.title = title;
-            //    }
-            //    public void Show()
-            //    {
-            //        Console.WriteLine(title);
-            //    }
-            //}
-            //class Author
-            //{
-            //    string author;
-            //    public Author(string author)
-            //    {
-            //        this.author = author;
-            //    }
-            //    public void Show()
-            //    {
-            //        Console.WriteLine(author);
-            //    }
-            //}
-            //class Content
-            //{
-            //    string content;
-            //    public Content(string content)
-            //    {
-            //        this.content = content;
-            //    }
-            //    public void Show()
-            //    {
-            //        Console.WriteLine(content);
-            //    }
-            //}
-            //class Converter
-            //{
-            //    public double usd { get; set; }
-            //    public double eur { get; set; }
-            //    public double rub { get; set; }
+        //class Title
+        //{
+        //    string title;
+        //    public Title(string title)
+        //    {
+        //        this.title = title;
+        //    }
+        //    public void Show()
+        //    {
+        //        Console.WriteLine(title);
+        //    }
+        //}
+        //class Author
+        //{
+        //    string author;
+        //    public Author(string author)
+        //    {
+        //        this.author = author;
+        //    }
+        //    public void Show()
+        //    {
+        //        Console.WriteLine(author);
+        //    }
+        //}
+        //class Content
+        //{
+        //    string content;
+        //    public Content(string content)
+        //    {
+        //        this.content = content;
+        //    }
+        //    public void Show()
+        //    {
+        //        Console.WriteLine(content);
+        //    }
+        //}
 
-            //    public Converter(double usd, double eur, double rub)
-            //    {
-            //        this.usd = usd;
-            //        this.eur = eur;
-            //        this.rub = rub;
-            //    }
-            //    public double DollarToSomoni(double usd)
-            //    {
-            //        return usd * this.usd;
-            //    }
-            //    public double EurToSomoni(double eur)
-            //    {
-            //        return eur * this.eur;
-            //    }
-            //    public double RubToSomoni(double rub)
-            //    {
-            //        return rub * this.rub;
-            //    }
-            //    public double SomoniToDollar(double somoni)
-            //    {
-            //        return somoni / this.usd;
-            //    }
-            //    public double SomoniToEur(double somoni)
-            //    {
-            //        return somoni / this.eur;
-            //    }
-            //    public double SomoniToRub(double somoni)
-            //    {
-            //        return somoni / this.rub;
-            //    }
+        //task4
+        //class LoginChecker
+        //{
+        //    private const string Login = "Alif";
+        //    private const string Password = "Alif2021";
 
-            //task6
-            //class Employee
-            //{
-            //public string lastName { get; set; }
-            //public string firstName { get; set; }
-            //public string position { get; set; }
-            //public int expierence { get; set; }
-            //public Employee(string lastName, string firstName, string position, int expierence)
-            //{
-            //    this.lastName = lastName;
-            //    this.firstName = firstName;
-            //    this.position = position;
-            //    this.expierence = expierence;
-            //}
-            //public double salary;
-            //public void getInfo()
-            //{
-            //    Console.WriteLine($"Last Name: {lastName} \n" +
-            //        $"First Name: {firstName}\n" +
-            //        $"Position: {position} \n" +
-            //        $"Salary: {salary}");
-            //}
-            //public void positionInfo()
-            //{
-            //    if (position == "Developer")
-            //    {
-            //        if (expierence <= 1)
-            //        {
-            //            salary = 1500 - (1500 * 14 / 100);
-            //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
-            //        }
-            //        else if (expierence >= 2)
-            //        {
-            //            salary = 2500 - (2500 * 14 / 100);
-            //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
-            //        }
-            //    }
-            //    else if (position == "Tester")
-            //    {
-            //        if (expierence <= 1)
-            //        {
-            //            salary = 1000 - (1000 * 14 / 100);
-            //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
-            //        }
-            //        else if (expierence >= 2)
-            //        {
-            //            salary = 2000 - (2000 * 14 / 100);
-            //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
-            //        }
-            //    }
-            //    else if (position == "Product Owner")
-            //    {
-            //        if (expierence <= 1)
-            //        {
-            //            salary = 800 - (800 * 14 / 100);
-            //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
-            //        }
-            //        else if (expierence >= 2)
-            //        {
-            //            salary = 1600 - (1600 * 14 / 100);
-            //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
-            //        }
-            //    }
-            //    else if (position == "Accounter")
-            //    {
-            //        if (expierence <= 1)
-            //        {
-            //            salary = 1100 - (1100 * 14 / 100);
-            //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
-            //        }
-            //        else if (expierence >= 2)
-            //        {
-            //            salary = 2200 - (2200 * 14 / 100);
-            //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
-            //        }
-            //        //else if(expierence)
-            //    }
-            //    else if (position == "Scrum Master")
-            //    {
-            //        if (expierence <= 1)
-            //        {
-            //            salary = 900 - (900 * 14 / 100);
-            //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
-            //        }
-            //        else if (expierence >= 2)
-            //        {
-            //            salary = 1800 - (1800 * 14 / 100);
-            //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
-            //        }
-            //    }
-            //    else
-            //        Console.WriteLine($"This position does" +
-            //            $" not exist");
-            //}
-        }
+        //    public string login { get; set; }
+        //    public string password { get; set; }
+        //    public LoginChecker(string login, string password)
+        //    {
+        //        this.login = login;
+        //        this.password = password;
+        //    }
+        //    public void dataChecker()
+        //    {
+        //        if (Login == login && Password == password)
+        //        {
+        //            Console.ForegroundColor = ConsoleColor.Green;
+        //            Console.WriteLine($"Success. Welcome to the system!");
+        //        }
+        //        else
+        //        {
+        //            Console.ForegroundColor = ConsoleColor.Red;
+        //            Console.WriteLine("Invalid credentials!");
+        //        }
+        //    }
+
+    }
+    //class Account
+    //{
+    //    private double account { get; set; }
+    //    public double deposit { get; set; }
+    //    public double savings { get; set; }
+    //    //public double transfer { get; set; }
+    //    public double creditCard { get; set; }
+    //    //public double total { get; set; }
+    //    public Account(double checking, double deposit, double savings,  double creditCard)
+    //    {
+    //        this.account = checking;
+    //        this.deposit = deposit;
+    //        this.savings = savings;
+    //        //this.transfer = transfer;
+    //        this.creditCard = creditCard;
+    //    }
+
+    //    public double Deposit(double deposit)
+    //    {
+
+    //        double total = account + deposit;
+
+    //        return total;
+    //    }
+    //    public double Savings(double savings)
+    //    {
+    //        double total = account + savings;
+    //        return total;
+    //    }
+
+    //    public double CreditCard( double creditCard)
+    //    {
+    //        double total = account + creditCard;
+    //        return total;
+    //    }
+    //task5
+
+    //class Converter
+    //{
+    //    public double usd { get; set; }
+    //    public double eur { get; set; }
+    //    public double rub { get; set; }
+
+    //    public Converter(double usd, double eur, double rub)
+    //    {
+    //        this.usd = usd;
+    //        this.eur = eur;
+    //        this.rub = rub;
+    //    }
+    //    public double DollarToSomoni(double usd)
+    //    {
+    //        return usd * this.usd;
+    //    }
+    //    public double EurToSomoni(double eur)
+    //    {
+    //        return eur * this.eur;
+    //    }
+    //    public double RubToSomoni(double rub)
+    //    {
+    //        return rub * this.rub;
+    //    }
+    //    public double SomoniToDollar(double somoni)
+    //    {
+    //        return somoni / this.usd;
+    //    }
+    //    public double SomoniToEur(double somoni)
+    //    {
+    //        return somoni / this.eur;
+    //    }
+    //    public double SomoniToRub(double somoni)
+    //    {
+    //        return somoni / this.rub;
+    //    }
+
+    //task6
+    //class Employee
+    //{
+    //public string lastName { get; set; }
+    //public string firstName { get; set; }
+    //public string position { get; set; }
+    //public int expierence { get; set; }
+    //public Employee(string lastName, string firstName, string position, int expierence)
+    //{
+    //    this.lastName = lastName;
+    //    this.firstName = firstName;
+    //    this.position = position;
+    //    this.expierence = expierence;
+    //}
+    //public double salary;
+    //public void getInfo()
+    //{
+    //    Console.WriteLine($"Last Name: {lastName} \n" +
+    //        $"First Name: {firstName}\n" +
+    //        $"Position: {position} \n" +
+    //        $"Salary: {salary}");
+    //}
+    //public void positionInfo()
+    //{
+    //    if (position == "Developer")
+    //    {
+    //        if (expierence <= 1)
+    //        {
+    //            salary = 1500 - (1500 * 14 / 100);
+    //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
+    //        }
+    //        else if (expierence >= 2)
+    //        {
+    //            salary = 2500 - (2500 * 14 / 100);
+    //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
+    //        }
+    //    }
+    //    else if (position == "Tester")
+    //    {
+    //        if (expierence <= 1)
+    //        {
+    //            salary = 1000 - (1000 * 14 / 100);
+    //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
+    //        }
+    //        else if (expierence >= 2)
+    //        {
+    //            salary = 2000 - (2000 * 14 / 100);
+    //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
+    //        }
+    //    }
+    //    else if (position == "Product Owner")
+    //    {
+    //        if (expierence <= 1)
+    //        {
+    //            salary = 800 - (800 * 14 / 100);
+    //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
+    //        }
+    //        else if (expierence >= 2)
+    //        {
+    //            salary = 1600 - (1600 * 14 / 100);
+    //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
+    //        }
+    //    }
+    //    else if (position == "Accounter")
+    //    {
+    //        if (expierence <= 1)
+    //        {
+    //            salary = 1100 - (1100 * 14 / 100);
+    //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
+    //        }
+    //        else if (expierence >= 2)
+    //        {
+    //            salary = 2200 - (2200 * 14 / 100);
+    //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
+    //        }
+    //        //else if(expierence)
+    //    }
+    //    else if (position == "Scrum Master")
+    //    {
+    //        if (expierence <= 1)
+    //        {
+    //            salary = 900 - (900 * 14 / 100);
+    //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
+    //        }
+    //        else if (expierence >= 2)
+    //        {
+    //            salary = 1800 - (1800 * 14 / 100);
+    //            Console.WriteLine($"Your salary with deducted tax and pension fund is = {salary}");
+    //        }
+    //    }
+    //    else
+    //        Console.WriteLine($"This position does" +
+    //            $" not exist");
+    //}
+}
     }
 
 
